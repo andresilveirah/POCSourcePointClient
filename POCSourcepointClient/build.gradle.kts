@@ -23,8 +23,8 @@ kotlin {
     cocoapods {
         val podVersion = "0.0.1"
         summary = "A proof of concept client for sourcepoint APIs using Kotlin Multiplatform"
-        homepage = "https://github.com/andresilveirah/POCSourcepointclientKMM"
-        source = "{ git: 'https://github.com/andresilveirah/POCSourcepointclientKMM.git'," +
+        homepage = "https://github.com/andresilveirah/POCSourcepointclient"
+        source = "{ git: 'https://github.com/andresilveirah/POCSourcepointclient.git'," +
                 "   branch: 'master'," +
                 "   tag: '$podVersion'" +
                 "}"

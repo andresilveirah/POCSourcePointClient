@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
     spec.name                     = 'POCSourcepointClient'
     spec.version                  = '0.0.1'
-    spec.homepage                 = 'https://github.com/andresilveirah/POCSourcepointclientKMM'
+    spec.homepage                 = 'https://github.com/andresilveirah/POCSourcepointclient'
     spec.source                   = { :http=> ''}
     spec.authors                  = { 'Andre Herculano' => 'andresilveirah@gmail.com' }
     spec.license                  = { 'type' => 'MIT', :text => <<-LICENSE
