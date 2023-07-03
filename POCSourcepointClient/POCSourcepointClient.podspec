@@ -4,7 +4,11 @@ Pod::Spec.new do |spec|
     spec.homepage                 = 'https://github.com/andresilveirah/POCSourcepointclientKMM'
     spec.source                   = { :http=> ''}
     spec.authors                  = { 'Andre Herculano' => 'andresilveirah@gmail.com' }
-    spec.license                  = ''
+    spec.license                  = { 'type' => 'MIT', :text => <<-LICENSE
+                   Copyright 2023
+                   Permission is granted to Andre Herculano
+                 LICENSE
+               }
     spec.summary                  = 'A proof of concept client for sourcepoint APIs using Kotlin Multiplatform'
     spec.vendored_frameworks      = 'build/cocoapods/framework/POCSourcepointClient.framework'
     spec.libraries                = 'c++'

@@ -21,11 +21,20 @@ kotlin {
     iosSimulatorArm64()
 
     cocoapods {
+        val podVersion = "0.0.1"
         summary = "A proof of concept client for sourcepoint APIs using Kotlin Multiplatform"
         homepage = "https://github.com/andresilveirah/POCSourcepointclientKMM"
-        source = "{ 'http' => 'https://github.com/andresilveirah/POCSourcepointclientKMM' }"
+        source = "{ git: 'https://github.com/andresilveirah/POCSourcepointclientKMM.git'," +
+                "   branch: 'master'," +
+                "   tag: '$podVersion'" +
+                "}"
         authors = "{ 'Andre Herculano' => 'andresilveirah@gmail.com' }"
-        version = "0.0.1"
+        license = "{ 'type' => 'MIT', :text => <<-LICENSE\n" +
+                "                   Copyright 2023\n" +
+                "                   Permission is granted to Andre Herculano\n" +
+                "                 LICENSE\n" +
+                "               }"
+        version = podVersion
         ios.deploymentTarget = "11.0"
         name = "POCSourcepointClient"
         framework {
